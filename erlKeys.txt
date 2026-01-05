@@ -1,0 +1,11 @@
+
+C-A Beginning of line
+C-E End of line
+C-B Backward character
+C-F Forward character
+C-D Delete character
+C-T Transpose characters
+Tab Expand module/function name
+C-P Previous line
+C-N Next line
+

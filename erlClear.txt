@@ -1,0 +1,14 @@
+
+%% Clear screen in Erlang shell "erl":
+
+io:format(os:cmd("clear")).
+io:format(os:cmd("/usr/bin/clear")).
+io:format("\e[H\e[2J\e[3J").
+io:format("\e[3J\e[1;1H\e[0J").
+
+Cls = fun() -> io:format("\e[H\e[2J\e[3J") end.
+Cls().
+
+halt().
+q().
+
