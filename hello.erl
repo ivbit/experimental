@@ -17,7 +17,7 @@
 
 start() ->
     io:format("Hello, World!~n"),
-    io:format("~s~n", [<<"Привет, Мир!"/utf8>>]).
+    io:format("~ts~n", [<<"Привет, Мир!"/utf8>>]).
 
 
 
